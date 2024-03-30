@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ssm753as:war">
+    <output-path>$PROJECT_DIR$/springboot/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ssm753as</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ssm753as.war">
+      <element id="artifact" artifact-name="ssm753as:war exploded" />
+    </root>
+  </artifact>
+</component>
